@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+ html,
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #F55A5A;
+}
+
+.header-text,
+.card-container .location,
+.card-container a,
+.card-container .date,
+.card-container .descripton {
+    font-size: 0.9rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header-text {
+    margin-left: 0.5em;
+    font-weight: 400;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-img {
+    width: 150px;
+    height: 228px;
+    border-radius: 5px;
+    margin-right: 2em;
+    object-fit: cover;
+
+}
+
+.card-details-top {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    
+}
+
+.card-details-top .fa-solid {
+    color: #F55A5A;
+}
+
+.card-details-top .location {
+    margin-left: 0.2em;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.card-container a {
+    color: #918E9B;
+}
+
+.card-container .title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.card-container .date {
+    font-weight: 800;
+}
+
+.card-container .descripton {
+    line-height: 1.5;
+}
